@@ -2,7 +2,6 @@ import { persistStore} from 'redux-persist'
 import { configureStore } from '@reduxjs/toolkit';
 import { contactsReducer } from './contactsSlice';
 import {
-  persistReducer,
   FLUSH,
   REHYDRATE,
   PAUSE,
